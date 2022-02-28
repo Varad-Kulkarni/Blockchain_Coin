@@ -1,0 +1,52 @@
+node main.js
+Block mined: 0000bfa1c6b3b3b9225f85538b7fb3d68c31946b1d6ac1b75feacc80e7c865b0
+Block mined: 000071cab5044fd81a19fe05c995368607e9e697f5c996e8b9cdeed5cdebb133
+{
+    "chain": [
+        {
+            "index": 0,
+            "timestamp": "01/01/2022",
+            "data": "Genesis block",
+            "previousHash": "0",
+            "hash": "01a568d07f3a9e010347e3e0fd5895c374ccf5cf295fb1d497d6efe38329eab9",
+            "nonce": 0
+        },
+        {
+            "index": 1,
+            "timestamp": "02/02/2022",
+            "data": {
+                "amount": 3
+            },
+            "previousHash": "01a568d07f3a9e010347e3e0fd5895c374ccf5cf295fb1d497d6efe38329eab9",
+            "hash": "0000bfa1c6b3b3b9225f85538b7fb3d68c31946b1d6ac1b75feacc80e7c865b0",
+            "nonce": 3312
+        },
+        {
+            "index": 2,
+            "timestamp": "05/02/2022",
+            "data": {
+                "amount": 9
+            },
+            "previousHash": "0000bfa1c6b3b3b9225f85538b7fb3d68c31946b1d6ac1b75feacc80e7c865b0",
+            "hash": "000071cab5044fd81a19fe05c995368607e9e697f5c996e8b9cdeed5cdebb133",
+            "nonce": 10463
+        }
+    ],
+    "difficulty": 4
+}
+is chain valid? true
+Now we are changing some text in chain.
+is chain valid? false
+mining block 1.....
+Block mined: 0000b1ae3f04af72b1a7b9bbb6e07f0e3850da3f0bdebd06f7c709a1d4e69ed2
+mining block 2.....
+Block mined: 0000a82fc3a7c1f102e604d12c8ed153ef07aa51497b25159b07458550a35fe0
+PS E:\Blockchain Programs> node blockchain.js
+
+ starting the miner.....
+Block mined: 00063bd91875657f81eaaca47b83305eb71339c120b80f16b4ce18be7f736e3e
+Block successfully mined
+
+ Balance of user is -10
+Is chain valid  false
+PS E:\Blockchain Programs>
